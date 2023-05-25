@@ -14,7 +14,7 @@ https://danilosoftwares.github.io/gmail-fake/
 
 ```sh
 git clone https://github.com/danilosoftwares/gmail-fake
-cd mac-react
+cd gmail-fake
 npm install
 npm start
 ```
