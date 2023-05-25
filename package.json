@@ -1,6 +1,7 @@
 {
   "name": "gmail-fake",
   "version": "0.1.0",
+  "homepage": "gmail-fake/",
   "private": true,
   "dependencies": {
     "@types/node": "^16.18.23",
