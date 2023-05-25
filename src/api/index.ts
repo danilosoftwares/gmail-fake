@@ -3,16 +3,15 @@ import { Email, Mailbox } from "../store/types";
 export const BASEAPI = "https://www.1secmail.com/api/v1";
 
 export const getTempMail = async (create?:boolean): Promise<string> => {  
-  // const emailMemory = create ? null : sessionStorage.getItem("email");
-  // if (!emailMemory){
-  //   const req = await fetch(`${BASEAPI}/?action=genRandomMailbox`)
-  //   const data = await req.json();
-  //   const email = data[0];
-  //   sessionStorage.setItem("email",email);
-  //   return email;
-  // }
-  // return emailMemory;
-  return "email@exemplo.com";
+  const emailMemory = create ? null : sessionStorage.getItem("email");
+  if (!emailMemory){
+    const req = await fetch(`${BASEAPI}/?action=genRandomMailbox`)
+    const data = await req.json();
+    const email = data[0];
+    sessionStorage.setItem("email",email);
+    return email;
+  }
+  return emailMemory;
 }
 
 export const checkTempMailbox = async (email: String): Promise<Mailbox[]> => {
