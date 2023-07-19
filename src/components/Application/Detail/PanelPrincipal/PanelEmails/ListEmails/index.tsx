@@ -1,3 +1,5 @@
+import { useCallback, useEffect } from 'react';
+import { checkTempMailbox } from '../../../../../../api';
 import useStore from '../../../../../../store';
 import { ItemEmail } from "./ItemEmail";
 import {
@@ -5,7 +7,28 @@ import {
 } from './styles';
 
 const ListEmails = () => {
-  const {emailBox, setEmailViewId} = useStore();  
+  const {email, emailBox, setEmailBox, setEmailViewId} = useStore();  
+
+  const getEmails = async () => {
+    if (email !== ""){
+      try{
+        const all = await checkTempMailbox(email);
+        setEmailBox(all);
+      } catch(e){
+
+      }
+    }
+  }  
+
+  const memoryGetEmails = useCallback(getEmails, [email,setEmailBox])
+
+  useEffect(() => {
+    memoryGetEmails();
+    const timer = setInterval(()=>{memoryGetEmails()}, 10000);    
+    return () => {
+      clearInterval(timer);
+    }      
+  }, [memoryGetEmails]);
 
   return (
     <Container>
