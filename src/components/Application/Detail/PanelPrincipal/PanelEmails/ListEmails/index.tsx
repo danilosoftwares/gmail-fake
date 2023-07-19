@@ -23,7 +23,7 @@ const ListEmails = () => {
   const memoryGetEmails = useCallback(getEmails, [email,setEmailBox])
 
   useEffect(() => {
-    memoryGetEmails();
+    //memoryGetEmails();
     // const timer = setInterval(()=>{memoryGetEmails()}, 10000);    
     // return () => {
     //   clearInterval(timer);
