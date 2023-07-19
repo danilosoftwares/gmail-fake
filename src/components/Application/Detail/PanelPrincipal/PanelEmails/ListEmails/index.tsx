@@ -24,9 +24,9 @@ const ListEmails = () => {
 
   useEffect(() => {
     memoryGetEmails();
-    const timer = setInterval(()=>{memoryGetEmails()}, 10000);    
+    //const timer = setInterval(()=>{memoryGetEmails()}, 10000);    
     return () => {
-      clearInterval(timer);
+      //clearInterval(timer);
     }      
   });
 
