@@ -5,7 +5,7 @@ import { FiUsers } from "react-icons/fi";
 import { FaRegCopy } from "react-icons/fa";
 import { IoMdStarOutline, IoMdRefresh } from "react-icons/io";
 import { AiOutlineSend, AiOutlineSearch } from "react-icons/ai"
-import { GoSettings } from "react-icons/go"
+import { VscSettings } from "react-icons/vsc"
 import { TbArrowNarrowLeft } from "react-icons/tb"
 import { HiOutlineBars3 } from "react-icons/hi2"
 
@@ -116,7 +116,7 @@ export function MagnifyingGlass({ size=18, color }: { size?: Number; color: stri
 export function Settings({ size=20, color }: { size?: Number; color: string }) {
   return (
     <Container>
-      <GoSettings size={String(size)} color={color} />
+      <VscSettings size={String(size)} color={color} />
     </Container>
   );
 };
