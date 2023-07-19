@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/gmail-fake/static/css/main.2df6db95.css",
-    "main.js": "/gmail-fake/static/js/main.a4af0c3d.js",
+    "main.js": "/gmail-fake/static/js/main.9cd3b0c0.js",
     "static/js/787.5abb71ec.chunk.js": "/gmail-fake/static/js/787.5abb71ec.chunk.js",
     "index.html": "/gmail-fake/index.html",
     "main.2df6db95.css.map": "/gmail-fake/static/css/main.2df6db95.css.map",
-    "main.a4af0c3d.js.map": "/gmail-fake/static/js/main.a4af0c3d.js.map",
+    "main.9cd3b0c0.js.map": "/gmail-fake/static/js/main.9cd3b0c0.js.map",
     "787.5abb71ec.chunk.js.map": "/gmail-fake/static/js/787.5abb71ec.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2df6db95.css",
-    "static/js/main.a4af0c3d.js"
+    "static/js/main.9cd3b0c0.js"
   ]
 }
