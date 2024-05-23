@@ -10,13 +10,3 @@ export interface propsPanelAttachment {
   id: number;
   email:string;
 }
-
-export interface propsContainerAttachmentItemImage {
-  image:string;
-  left:number;
-  top:number;
-}
-
-export interface propsContainerAttachmentItem {
-  first:boolean;
-}

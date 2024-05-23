@@ -24,32 +24,6 @@ export function Profile({ size=27 }: { size?: Number }) {
   )
 }
 
-export function PaperBlue() {
-  return (
-    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="16px" height="16px">
-    <g><path  fill="#1b73e8" d="M 1.5,-0.5 C 4.5,-0.5 7.5,-0.5 10.5,-0.5C 11.4577,0.961599 12.6244,2.29493 14,3.5C 14.4988,7.48617 14.6655,11.4862 14.5,15.5C 10.1667,15.5 5.83333,15.5 1.5,15.5C 1.5,10.1667 1.5,4.83333 1.5,-0.5 Z"/></g>
-    <g><path  fill="#b7d1f7" d="M 8.5,1.5 C 13.5028,3.42559 13.5028,4.75892 8.5,5.5C 8.5,4.16667 8.5,2.83333 8.5,1.5 Z"/></g>
-    <g><path  fill="#b9d2f7" d="M 4.5,7.5 C 6.92397,7.19244 9.25731,7.52577 11.5,8.5C 10.3333,8.83333 9.16667,9.16667 8,9.5C 6.31887,9.39174 5.1522,8.72507 4.5,7.5 Z"/></g>
-    <g><path  fill="#b9d3f7" d="M 4.5,10.5 C 6.92397,10.1924 9.25731,10.5258 11.5,11.5C 10.3333,11.8333 9.16667,12.1667 8,12.5C 6.31887,12.3917 5.1522,11.7251 4.5,10.5 Z"/></g>
-    </svg>
-  )
-}
-
-export function Tag() {
-  return (
-    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" version="1.1" viewBox="0 0 40 40">
-      <image width="40" height="40" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAIAAAADnC86AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGPSURBVFhH7ZjbjoMgEED7/x+3/YrlIhXUogiK7GCxFy2u2TY0m3ienDhyhmGiiQfn3PHr+J0Q0IH0kNh6AaSHcJmcXZyMXZyMXZyMfy/GGWMEh2AL7xEToeCDowQJ8QbeIy5a61zP37ljTERV97Zb3QzTsN9OIkjPpbWdLDmBYJWomJ5ErTtYcMSuiBGTkKErBtc4ry8PODeYVgoWfWwhxlScmw46d8F2zVlkq/XnEuobShpCRLJCqn4IC8AKdSXo4hQexNCokO2sbiSP13sHaaBKq5ap0DOp9FRALx7dD2LCm5Dmen9OW4aFFN7b8BDeA82r6ql388Oat5owIVtz7VOvVZFnK42mpR8sebqvETFetuZ6WoNWkmfzjkSGCxFRSmOvBZj8+e5RZfxdP1cjmJ1vQmtkER3viHhibADMTmSqUe7nSpch9Ifl3yTm2RZn/CIOIPy0bsxr0LTFNNCeSOqCbeIIQvnBWn23RHlJjAil9E/aF8WvsIuTsYuTsYuT8Tnxx36+wHctsRt0zrkfVFvfSVgT0hQAAAAASUVORK5CYII="/>
-    </svg>
-  )
-}
-
-export function ArrowDown() {
-  return (    
-    <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" version="1.1" viewBox="0 0 19 19">
-      <image width="19" height="19" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAATCAIAAAD9MqGbAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACXSURBVDhP5Y9BCkIhEIY7q+eQt9WFD9zrDQKPovBcquhBFBtqhCwjaFd9i2H8nY/RE/mUXzCVUueB1hrTmbWZUuqDnDOmM39pCiFgrrWG0gCSUsq+7zh35XGnlDKEUGtFqXfoY4yQ48Rg8VrG2HEcNxmq955zjnd3rP+5bZu1FkznHPSYzqxNgFJqjIGK5ydemm/5JpOQC7Qz+gWQbZnIAAAAAElFTkSuQmCC"/>
-    </svg>
-  )
-}
 
 
 
