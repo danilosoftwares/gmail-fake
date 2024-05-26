@@ -8,7 +8,7 @@ import { PanelAttachment } from "./PanelAttachment";
 import { Email, propsViewMessage } from "./types";
 import useStore from "../../../../../../../../store";
 import { getSingleEmail } from "../../../../../../../../api";
-import { Profile } from "../../../../../../../../Assets";
+import profileImage from '../../../../../../../../Assets/profile_image.png';
 
 const ViewMessage: React.FC<propsViewMessage> = ({ idMessage }) => {
   const [message, setMessage] = useState<Email>();
@@ -30,7 +30,7 @@ const ViewMessage: React.FC<propsViewMessage> = ({ idMessage }) => {
       <>
       <TextSubject>{message?.subject}</TextSubject>
       <ContainerFrom>
-        <Profile size={38}/>        
+        <img style={{height:38}} src={profileImage} alt={"nothing"}/>  
         <TextFrom>{message?.from}</TextFrom>
         <TextDate>{message?.date}</TextDate>
       </ContainerFrom>
